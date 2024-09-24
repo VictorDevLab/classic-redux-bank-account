@@ -32,7 +32,7 @@ export function createCustomer(fullName, nationalID) {
   };
 }
 
-export function updateCutomer(name) {
+export function updateCustomer(name) {
   return {
     type: "customer/updateCustomer",
     payload: name,

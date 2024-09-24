@@ -96,7 +96,7 @@ function createCustomer(fullName, nationalID) {
   };
 }
 
-function updateCutomer(name) {
+function updateCustomer(name) {
     return {
         type: "customer/updateCustomer",
         payload: name
