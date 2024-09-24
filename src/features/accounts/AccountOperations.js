@@ -10,12 +10,12 @@ function AccountOperations() {
   const [currency, setCurrency] = useState("USD");
 
   const dispatch = useDispatch();
+  //destructure
   const {
     loan: currentLoan,
     loanPurpose: currentLoanPurpose,
     balance,
   } = useSelector((state) => state.account);
-  console.log("acc");
 
   function handleDeposit() {
     if (!depositAmount) return;
